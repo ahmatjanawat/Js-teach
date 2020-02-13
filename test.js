@@ -8,6 +8,10 @@ inputParticipant.setAttribute("type", "number");
 inputResult.setAttribute("type", "number");
 buttonResult.innerText = "netije";
 
+//  todo : tapshuruq
+// set class name
+// add css file
+
 document.body.appendChild(inputTotal);
 document.body.appendChild(inputParticipant);
 document.body.appendChild(buttonResult);
