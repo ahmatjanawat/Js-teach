@@ -12,6 +12,13 @@ buttonResult.innerText = "netije";
 // set class name
 // add css file
 
+// <input >
+
+inputParticipant.defaultValue = 1;
+inputParticipant.setAttribute("min", 1);
+inputParticipant.setAttribute("max", 5);
+inputTotal.setAttribute("min", 0);
+
 document.body.appendChild(inputTotal);
 document.body.appendChild(inputParticipant);
 document.body.appendChild(buttonResult);

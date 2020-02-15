@@ -1,5 +1,17 @@
 body {
   display: grid;
   background-color: brown;
-  color: blue;
+  color: whitesmoke;
+}
+
+input,
+button {
+  border-radius: 20px;
+  background-color: violet;
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+  text-align: center;
+  font-style: oblique;
+  color: chartreuse;
 }
