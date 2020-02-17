@@ -3,16 +3,18 @@ const inputParticipant = document.createElement("input");
 const buttonResult = document.createElement("button");
 const inputResult = document.createElement("input");
 
+//  <button class='' id=''> content </button>
+// button =>const konopka =  document.createElement('button');
+// konopka.set....
+// h1.innerHTML = <strong>dsffdf</strong> / innerText= / content
+
 inputTotal.setAttribute("type", "number");
 inputParticipant.setAttribute("type", "number");
 inputResult.setAttribute("type", "number");
 buttonResult.innerText = "netije";
 
-//  todo : tapshuruq
-// set class name
-// add css file
-
-// <input >
+// tapshuruq: 2 button, background: black, whitesmoke,
+// setAttribute => class => css
 
 inputParticipant.defaultValue = 1;
 inputParticipant.setAttribute("min", 1);
